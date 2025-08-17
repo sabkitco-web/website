@@ -1,0 +1,92 @@
+.stepsSec {
+    padding: 5rem 1rem 5rem 1rem;
+
+}
+
+.stepsSecHeading {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+.stepsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stepCard {
+    flex: 1 1 calc(250rem/16);
+    max-width: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.stepDescription {
+    font-weight: 400;
+
+}
+
+.stepTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.stepIcon {
+    height: 4rem;
+    width: 4rem;
+}
+
+@media (min-width: 768px) {
+    .stepIcon {
+        margin-bottom: 0.2rem;
+    }
+
+    .stepTitle {
+        font-size: 0.85rem;
+    }
+
+    .stepDescription {
+        font-size: 0.75rem;
+    }
+
+    .stepCard {
+        flex: 1 1 calc(250rem/16);
+        max-width: 15rem;
+    }
+
+    .stepsSecHeading {
+        font-size: 1.35rem;
+    }
+
+}
+
+@media (min-width: 940px) {
+
+    .stepsSec {
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .stepsSec {
+        padding-top: 6rem;
+    }
+
+    .stepTitle {
+        font-size: 1.05rem;
+        margin-bottom: 0.27rem;
+
+    }
+
+    .stepDescription {
+        font-size: 0.875rem;
+    }
+}

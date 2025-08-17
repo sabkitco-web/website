@@ -1,0 +1,47 @@
+
+
+.modalTitle{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.SelectedFile {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  color: var(--text-color-primary);
+   margin-bottom: 1rem;
+   font-size: 0.875rem;
+}
+
+.convertBtn {
+  font-size: 0.875rem;
+  font-weight: 500 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  background-color: var(--btn-color-primary);
+  color: white;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .convertBtn{
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+    
+}

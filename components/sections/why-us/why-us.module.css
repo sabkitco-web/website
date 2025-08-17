@@ -1,0 +1,111 @@
+.whyUs {
+
+    padding: 0rem 1rem 5rem 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    flex: 1 1 calc(250rem/16);
+    max-width: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+.description {
+    text-align: center;
+    padding-bottom: 1.25rem;
+
+}
+
+.featureTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.featureDescription {
+    font-weight: 400;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .icon {
+        margin-bottom: 0.2rem;
+
+    }
+
+    .featureTitle {
+        font-size: 0.85rem;
+    }
+
+    .featureDescription {
+        font-size: 0.75rem;
+    }
+
+    .feature {
+        max-width: 15rem;
+        flex: 1 1 calc(33.333% - 1rem)
+    }
+
+    .whyUs {
+        padding: 0 4rem !important;
+        margin-bottom: 2rem;
+
+    }
+
+    .title {
+        font-size: 1.35rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 940px) {
+
+    .whyUs {
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .whyUs {
+        padding-top: 2rem !important;
+    }
+
+    .featureTitle {
+        font-size: 1.05rem;
+        margin-bottom: 0.27rem;
+
+    }
+
+    .featureDescription {
+        font-size: 0.875rem;
+    }
+}

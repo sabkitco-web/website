@@ -1,0 +1,9 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+    background-color: var(--btn-color-secondary);
+      color:var( --text-color-primary);
+
+
+}
