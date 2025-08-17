@@ -22,9 +22,6 @@ export default function HeroSection() {
 
   function handleFileChange(e) {
     const file = e.target.files[0];
-    console.log("File :", file)
-
-
     if (file) {
       const sizeInMB = file.size / (1024 * 1024)
       if (sizeInMB > MAX_FILE_SIZE_MB) {
