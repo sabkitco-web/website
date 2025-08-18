@@ -60,7 +60,7 @@ const INDEX_PAGE_SCHEMA =  {
     "target": "https://sabkit.com"
   }
 };
-const BACKEND_URL = "http://localhost:3000/"
+const BACKEND_URL = "https://api.sabkit.com/"
 const GOOGLE_CHAT = "https://chat.googleapis.com/v1/spaces/AAQA8yAscTQ/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Sv4PN1kVpZght15te6mswzlWJjV7bTv6nr-19_Gum9w"
 
 const FAQ = [
